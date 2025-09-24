@@ -9,7 +9,6 @@ body {
     background-color: #f7f7f7;
 }
 
-/* Navbar */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,6 @@ body {
     color: #ff9800;
 }
 
-/* Login/Register Buttons */
 .login button {
     border-radius: 10px;
     background-color: black;
@@ -61,14 +59,12 @@ body {
     color: white;
 }
 
-/* Active state for Login/Register */
 .login button.active {
     background-color: #33e4a9;
     color: white;
     transform: scale(1.05);
 }
 
-/* Contact Section */
 .contact-section {
     display: flex;
     justify-content: center;
@@ -131,3 +127,4 @@ body {
 .contact-box button:hover {
     background-color: #28b78b;
 }
+
