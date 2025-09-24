@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: whitesmoke;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav h2 {
+    color: black;
+}
+
+.nav .links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav .links a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav .links a:hover,
+.nav .links a.active {
+    color: #ff9800;
+}
+
+/* Login/Register Buttons */
+.login button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.login button:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Active state for Login/Register */
+.login button.active {
+    background-color: #33e4a9;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.contact-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-box h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #33e4a9;
+}
+
+.contact-box label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact-box input,
+.contact-box select,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus,
+.contact-box select:focus {
+    border-color: #33e4a9;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #33e4a9;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background-color: #28b78b;
+}
